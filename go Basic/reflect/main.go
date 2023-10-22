@@ -17,7 +17,7 @@ type employee struct {
 	id      int
 	address string
 	salary  int
-	country  string
+	country string
 }
 
 func createQuery(q interface{}) string {
@@ -77,10 +77,10 @@ func main() {
 	createQuery(o)
 
 	e := employee{
-		name:"wzs",
-		id: 123,
+		name:    "wzs",
+		id:      123,
 		address: "lalalla",
-		salary: 55555,
+		salary:  55555,
 		country: "wwww",
 	}
 	createQuery(e)
